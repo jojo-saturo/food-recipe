@@ -1,0 +1,96 @@
+.omelette_container {
+    background-color: white;
+    border-radius: 20px;
+    width: 52vw;
+    padding: 30px;
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+}
+
+body {
+    background-color: antiquewhite;
+    height: 70vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 45vh;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+.heading_omelette {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.grid_container {
+    line-height: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: hsl(330, 100%, 98%);
+}
+
+.prep_time {
+    color: hsl(332, 51%, 32%);
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.ingredient {
+    color: hsl(14, 45%, 36%);
+}
+
+.instuction {
+    color: hsl(14, 45%, 36%);
+}
+
+.omelette_nutrition {
+    color: hsl(14, 45%, 36%);
+}
+
+tr, td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Style for ordered and unordered list markers */
+ul::marker, ol::marker {
+    color: red; /* Changes the color of the bullets or numbers to red */
+}
+
+/* Small screen devices */
+
+/* On small screens from 650px should be adjusted */
+@media screen and (max-width: 650px) {
+
+    .omelette_container {
+        border-radius: 0px;
+        font-size: small;
+        width: 50%;
+    }
+
+    body {
+        background-color: white;
+        justify-content: center;
+        width: 140%;
+    }
+
+    img {
+        height: 20vh;
+        border-radius: 0px;
+        display: block;
+        margin: 0 auto; /* Centers the image horizontally */
+    }
+}
